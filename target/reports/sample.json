@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-18T03:58:11.293Z",
+        "line": 2,
+        "name": "Validate the login page with invalidate username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-p;validate-the-login-page-with-invalidate-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18814030400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should  launch the browser and load the facebook page",
+            "match": {
+              "location": "FBLoginDefinition.user_should_launch_the_browser_and_load_the_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 465290400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should type the username in the facebook page",
+            "match": {
+              "location": "FBLoginDefinition.user_should_type_the_username_in_the_facebook_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375973800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should type the password in the facebook page",
+            "match": {
+              "location": "FBLoginDefinition.user_should_type_the_password_in_the_facebook_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2225972800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "FBLoginDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3336675900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should navigate to incorrect credential page",
+            "match": {
+              "location": "FBLoginDefinition.user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook p",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-p",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/FBLogin.feature",
+    "tags": []
+  }
+]

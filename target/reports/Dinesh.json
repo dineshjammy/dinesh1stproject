@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-18T02:59:04.144Z",
+        "line": 5,
+        "name": "Validate the login page with invalidate username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-p;validate-the-login-page-with-invalidate-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat org.Util.BaseClass.fill(BaseClass.java:64)\r\n\tat org.stepdefinition.FBLoginDefinition.user_should_type_the_username_in_the_facebook_page(FBLoginDefinition.java:28)\r\n\tat ✽.User should type the username in the facebook page(file:src/test/resources/FeatureFiles/Fblogin.feature:6)\r\n",
+              "duration": 360596900,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User should type the username in the facebook page",
+            "match": {
+              "location": "FBLoginDefinition.user_should_type_the_username_in_the_facebook_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should type the password in the facebook page",
+            "match": {
+              "location": "FBLoginDefinition.user_should_type_the_password_in_the_facebook_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should click the login button",
+            "match": {
+              "location": "FBLoginDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User should navigate to incorrect credential page",
+            "match": {
+              "location": "FBLoginDefinition.user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook p",
+    "description": "Given User should  launch the browser and load the facebook page",
+    "id": "to-validate-the-login-functionality-of-facebook-p",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Fblogin.feature",
+    "tags": []
+  }
+]
